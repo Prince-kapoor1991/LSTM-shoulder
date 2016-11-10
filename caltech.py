@@ -305,7 +305,7 @@ if __name__=="__main__":
 			
             save_records(record_str.getvalue(), ''.join([save_dir, '/', setname, '.bin']))
 	    set_seq += 1
-    print('Total %d positive and %d negative samples are extracted from %d frames.' % (total_patches, total_n_patches, total_frames))
+    print('Total %d positive from %d postive frames and total number of frames in sequence  are : %d' % (total_patches, total_n_patches, total_frames))
     outfile_train.write(json.dumps(json_images_train, indent = 1))
     outfile_valid.write(json.dumps(json_images_valid, indent = 1))
     
