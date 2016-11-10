@@ -1,0 +1,2 @@
+# Caltech-pedestrian-Extraction
+This code consists of extraction of annotated pedestrians from caltech database and also convert the annatated pedestrians  into a binary file which could be used for detection using CNN along with various traditional algorithms. Moreover, it also facilitates with the implementation on TensorBox by converting the files into JSON format Lastly, def random_crop(img,h,w): this function can be used to create the random crops for the negative images and can be used for training.
